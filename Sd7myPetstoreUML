@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T03:59:30.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="tLXhfmfZfrymA2rtyQgL" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T04:55:06.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="J0ofIkXuwZNqoySnEl3b" version="13.8.0" type="github">
   <diagram id="5-Xr5V3ftDT8xxXuKtwE" name="Page-1">
-    <mxGraphModel dx="1564" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             <mxPoint x="440" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3e1g389geSw8QDA8VmMa-85" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeColor=#09555B;fontColor=#1A1A1A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3e1g389geSw8QDA8VmMa-47" target="SAF91EE-bVOhGruJQ5fM-41" edge="1">
+        <mxCell id="3e1g389geSw8QDA8VmMa-85" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeColor=#09555B;fontColor=#1A1A1A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.675;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3e1g389geSw8QDA8VmMa-47" target="SAF91EE-bVOhGruJQ5fM-41" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="950" as="sourcePoint" />
             <mxPoint x="490" y="950" as="targetPoint" />
@@ -262,15 +262,6 @@
         <mxCell id="SAF91EE-bVOhGruJQ5fM-41" value="+ whereRegistered(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;fontColor=#1A1A1A;" parent="SAF91EE-bVOhGruJQ5fM-33" vertex="1">
           <mxGeometry y="194" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="SAF91EE-bVOhGruJQ5fM-44" value="«interface»&#xa;VaccinatedPet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
-          <mxGeometry x="210" y="920" width="200" height="92" as="geometry" />
-        </mxCell>
-        <mxCell id="SAF91EE-bVOhGruJQ5fM-45" value="~ getNecessaryVacs(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;" parent="SAF91EE-bVOhGruJQ5fM-44" vertex="1">
-          <mxGeometry y="40" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="Bgnsrp8oJZ-8eFeDoEhA-4" value="~ getNonnecessaryVacs(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;" parent="SAF91EE-bVOhGruJQ5fM-44" vertex="1">
-          <mxGeometry y="66" width="200" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="3e1g389geSw8QDA8VmMa-30" value="Dog" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
           <mxGeometry x="210" y="1250" width="330" height="454" as="geometry" />
         </mxCell>
@@ -378,6 +369,15 @@
             <mxPoint x="650" y="250" as="sourcePoint" />
             <mxPoint x="590" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SAF91EE-bVOhGruJQ5fM-44" value="«interface»&#xa;VaccinatedPet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="390" y="970" width="200" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="SAF91EE-bVOhGruJQ5fM-45" value="~ getNecessaryVacs(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;" parent="SAF91EE-bVOhGruJQ5fM-44" vertex="1">
+          <mxGeometry y="40" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgnsrp8oJZ-8eFeDoEhA-4" value="~ getNonnecessaryVacs(): String[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1A1A1A;" parent="SAF91EE-bVOhGruJQ5fM-44" vertex="1">
+          <mxGeometry y="66" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
