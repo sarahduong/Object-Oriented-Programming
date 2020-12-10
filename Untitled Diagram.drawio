@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T22:52:48.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="V6y-Woyyyyn1-P2qKSiR" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T23:00:21.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="t9cQsCJv0gaGua2u-_oF" version="14.0.0" type="github">
   <diagram id="gQvXxVn0NNRnsmSeAjaD" name="Page-1">
-    <mxGraphModel dx="242" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W3TxLNWomMBkSXG4hjIm-2" value="Switchable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="340" y="50" width="440" height="450" as="geometry" />
+          <mxGeometry x="630" y="40" width="440" height="424" as="geometry" />
         </mxCell>
         <mxCell id="W3TxLNWomMBkSXG4hjIm-3" value="+ scene: Scene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="W3TxLNWomMBkSXG4hjIm-2" vertex="1">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
@@ -43,20 +43,17 @@
         <mxCell id="W3TxLNWomMBkSXG4hjIm-5" value="+ add(String name) : Switchable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="W3TxLNWomMBkSXG4hjIm-2" vertex="1">
           <mxGeometry y="294" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-2" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
+        <mxCell id="Ama2jXLuvbdr1ns14wdT-2" value="+ switchTo(String name) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
           <mxGeometry y="320" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-3" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
+        <mxCell id="Ama2jXLuvbdr1ns14wdT-3" value="+ setRoot(Parent root) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
           <mxGeometry y="346" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
+        <mxCell id="Ama2jXLuvbdr1ns14wdT-4" value="+ getRoot() : Parent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
           <mxGeometry y="372" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
+        <mxCell id="Ama2jXLuvbdr1ns14wdT-5" value="+ getControllerByName(String name) : Switchable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
           <mxGeometry y="398" width="440" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="W3TxLNWomMBkSXG4hjIm-2">
-          <mxGeometry y="424" width="440" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
