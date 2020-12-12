@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T01:52:59.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PWtV2w9yQ7VF2RvHqaQG" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T01:55:15.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FHMUQG6CU4Kf5_GkuNN1" version="14.0.1" type="github">
   <diagram id="gQvXxVn0NNRnsmSeAjaD" name="Page-1">
-    <mxGraphModel dx="665" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6045" dy="3182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           <mxGeometry y="412" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-11" value="PlayerHistoryModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="580" y="850" width="270" height="320" as="geometry" />
+          <mxGeometry x="520" y="790" width="270" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-12" value="~ nameList : ArrayList&lt;String&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-11" vertex="1">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry y="294" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-15" value="CongratsController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1260" width="290" height="242" as="geometry" />
+          <mxGeometry x="820" y="1310" width="290" height="242" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-16" value="+ nameText : Text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-15" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -349,7 +349,7 @@
             <mxPoint x="1590" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x7pHkxvIP9NFeuUJQOHM-12" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ama2jXLuvbdr1ns14wdT-15" target="Ama2jXLuvbdr1ns14wdT-63">
+        <mxCell id="x7pHkxvIP9NFeuUJQOHM-12" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;rounded=0;entryX=0.898;entryY=1.021;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ama2jXLuvbdr1ns14wdT-15" target="Ama2jXLuvbdr1ns14wdT-64">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="560" y="1350" as="sourcePoint" />
             <mxPoint x="720" y="1350" as="targetPoint" />
