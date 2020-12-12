@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T04:28:15.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yhGsq2K03-R153_CbLzW" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T05:07:28.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eBQuZR3MrZEg06QwLGRN" version="14.0.1" type="github">
   <diagram id="gQvXxVn0NNRnsmSeAjaD" name="Page-1">
-    <mxGraphModel dx="1248" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="274" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,37 +161,34 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-92" value="«interface»&#xa;TriviaGameInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="230" width="790" height="302" as="geometry" />
-        </mxCell>
-        <mxCell id="Ama2jXLuvbdr1ns14wdT-93" value="+ initialize(url : URL, rb : ResourceBundle)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="40" width="790" height="26" as="geometry" />
+          <mxGeometry x="1730" y="230" width="790" height="276" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-94" value="+ namePopUp();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="66" width="790" height="28" as="geometry" />
+          <mxGeometry y="40" width="790" height="28" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-96" value="+ setUpTextBox(titleToSet : String, textBox : TextInputDialog, i : int) : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="94" width="790" height="26" as="geometry" />
+          <mxGeometry y="68" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-97" value="+ checkAnswer(getAnswer : String, incorrectAlertString : String, capitalAnswer : String, lowercaseAnswer : String, addToTotal : int, button: Button)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="120" width="790" height="26" as="geometry" />
+          <mxGeometry y="94" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-99" value="+ checkWinLose(total : int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="146" width="790" height="26" as="geometry" />
+          <mxGeometry y="120" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-100" value="+ congratsAlert()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="172" width="790" height="26" as="geometry" />
+          <mxGeometry y="146" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-101" value="+ incorrectAlert(contentText : String);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="198" width="790" height="26" as="geometry" />
+          <mxGeometry y="172" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-102" value="+ createTextBox(button : Button) : TextInputDialog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="224" width="790" height="26" as="geometry" />
+          <mxGeometry y="198" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-103" value="+ resetGame()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="250" width="790" height="26" as="geometry" />
+          <mxGeometry y="224" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ama2jXLuvbdr1ns14wdT-104" value="+ getAPI() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Ama2jXLuvbdr1ns14wdT-92" vertex="1">
-          <mxGeometry y="276" width="790" height="26" as="geometry" />
+          <mxGeometry y="250" width="790" height="26" as="geometry" />
         </mxCell>
         <mxCell id="26JXpx6nsNylsn1MKvOH-1" value="TriviaGameController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1490" y="1113" width="790" height="1048" as="geometry" />
@@ -316,7 +313,7 @@
         <mxCell id="m1ux0Dlqe6vEUNBZK-ai-16" value="- click10Right(event : ActionEvent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="26JXpx6nsNylsn1MKvOH-1" vertex="1">
           <mxGeometry y="1022" width="790" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="x7pHkxvIP9NFeuUJQOHM-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.908;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="26JXpx6nsNylsn1MKvOH-1" target="Ama2jXLuvbdr1ns14wdT-104" edge="1">
+        <mxCell id="x7pHkxvIP9NFeuUJQOHM-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.908;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="26JXpx6nsNylsn1MKvOH-1" edge="1" target="Ama2jXLuvbdr1ns14wdT-104">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2010" y="838.5" as="sourcePoint" />
             <mxPoint x="2444.1600000000003" y="566.008" as="targetPoint" />
