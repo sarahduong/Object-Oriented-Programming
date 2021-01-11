@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sd7myfinalproject.LostController">
+   <children>
+      <ImageView fitHeight="501.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lost.gif" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="101.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Come back and try again soon!!">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Button fx:id="exitGameButton" layoutX="246.0" layoutY="281.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="57.0" prefWidth="157.0" text="Exit Game">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="70.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sorry, you didn't get to $450 :(">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

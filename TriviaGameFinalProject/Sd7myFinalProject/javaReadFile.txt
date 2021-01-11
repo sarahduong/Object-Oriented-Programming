@@ -1,0 +1,60 @@
+What best describes the purpose of a class’s constructor?
+A) Initializes fields in the object
+B) Names the new object
+C) Determines space needed for objects
+D) Creates a new subclass
+What is it called when multiple methods have the same name but different signatures?
+A) Function doubling
+B) Function overriding
+C) Function overloading
+D) Function prototyping
+What is used the refer to a parent class?
+A) subclass
+B) super
+C) parentChild
+D) keyParent
+What is a boolean?
+A) Something that can only be true or false
+B) A built in Java class
+C) A keyword used to extend classes
+D) A non primitive data type used to create an interface
+What Java primitive data type cannot hold a decimal value?
+A) long
+B) int
+C) double
+D) Integer
+To instantiate an object means to:
+A) Create an instance of an object
+B) Call the instanceOf() method
+C) Pause an object’s functionality for a specified amount of time
+D) Create a class with the object’s name
+What is the purpose of an array?
+A) Store elements of various types
+B) Store classes
+C) Store elements of the same type
+D) Hide elements from user with negative indexing
+What does == do?
+A) Sets value to assigned value
+B) Creates a copy of a value
+C) Compares two values
+D) Calls the assignmentSetTo method
+What is an assignment statement?
+A) Adding one to a value
+B) Assigning a value to a variable
+C) Multiplying a value by 3
+D) Creating a new object
+Which of the following is NOT a primitive data type?
+A) short
+B) byte
+C) float
+D) String
+What does OOP stand for in programming?
+A) Out of Place
+B) Object Oriented Politics
+C) Object Oriented Programming
+D) Object Oriented Principles
+In Java, what is a block of code that can be reused when called?
+A) Method
+B) Signature
+C) Class
+D) Array

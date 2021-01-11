@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sd7myfinalproject.CongratsController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="659.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@confetti.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="122.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congrats, you won!!!" textAlignment="CENTER" wrappingWidth="395.3466796875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="exitGameButton" layoutX="276.0" layoutY="357.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="29.0" prefWidth="107.0" text="Exit Game" />
+      <Text layoutX="182.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recent Scores:" textAlignment="CENTER" wrappingWidth="275.3466796875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="120.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" textAlignment="CENTER" underline="true" wrappingWidth="123.3466796875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="395.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" textAlignment="CENTER" underline="true" wrappingWidth="123.3466796875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nameText" layoutX="148.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="181.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="scoreText" layoutX="407.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="98.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

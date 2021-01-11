@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sd7myfinalproject.AboutController">
+   <children>
+      <ImageView fx:id="aboutImage" fitHeight="518.0" fitWidth="842.0" layoutX="-101.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="291.0" layoutY="315.0" mnemonicParsing="false" onAction="#handleGoToB" prefHeight="49.0" prefWidth="204.0" text="Play the game!">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="252.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java Trivia Game" textAlignment="CENTER" wrappingWidth="303.28125">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="224.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test your Java knowledge with this Java Trivia Game! To play, click on a dollar category. As the dollar value increases, questions get tougher. To win, get to $450 before all boxes are out. Running total amount is tracked on the left of the game." textAlignment="CENTER" wrappingWidth="360.28125">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="40.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created by Sarah Duong, sophomore at the University of Missouri. The purpose of this game is to test basic Java and Computer Science knowledge. It can also be adapted to create a fun trivia game of any category." textAlignment="CENTER" wrappingWidth="127.28125">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

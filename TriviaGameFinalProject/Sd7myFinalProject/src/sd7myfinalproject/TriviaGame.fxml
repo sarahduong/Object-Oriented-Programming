@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sd7myfinalproject.TriviaGameController">
+   <children>
+      <ImageView fitHeight="485.0" fitWidth="730.0" layoutX="-55.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@DeepTepidCarpenterant-size_restricted%20(1).gif" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Button layoutX="8.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleGoToA" text="Home Page">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="hundredButton1" layoutX="161.0" layoutY="65.0" mnemonicParsing="false" onAction="#click100Left" prefHeight="72.0" prefWidth="146.0" text="\$100">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="fiftyButton1" layoutX="161.0" layoutY="141.0" mnemonicParsing="false" onAction="#click50Left" prefHeight="72.0" prefWidth="146.0" text="\$50">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="twentyButton1" layoutX="161.0" layoutY="217.0" mnemonicParsing="false" onAction="#click20Left" prefHeight="72.0" prefWidth="146.0" text="\$20">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="tenButton1" layoutX="161.0" layoutY="293.0" mnemonicParsing="false" onAction="#click10Left" prefHeight="72.0" prefWidth="146.0" text="\$10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="tenButton2" layoutX="312.0" layoutY="293.0" mnemonicParsing="false" onAction="#click10Center" prefHeight="72.0" prefWidth="146.0" text="\$10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="twentyButton2" layoutX="312.0" layoutY="217.0" mnemonicParsing="false" onAction="#click20Center" prefHeight="72.0" prefWidth="146.0" text="\$20">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="fiftyButton2" layoutX="312.0" layoutY="141.0" mnemonicParsing="false" onAction="#click50Center" prefHeight="72.0" prefWidth="146.0" text="\$50">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="tenButton3" layoutX="463.0" layoutY="293.0" mnemonicParsing="false" onAction="#click10Right" prefHeight="72.0" prefWidth="146.0" text="\$10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="twentyButton3" layoutX="463.0" layoutY="217.0" mnemonicParsing="false" onAction="#click20Right" prefHeight="72.0" prefWidth="146.0" text="\$20">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="hundredButton2" layoutX="312.0" layoutY="65.0" mnemonicParsing="false" onAction="#click100Center" prefHeight="72.0" prefWidth="146.0" text="\$100">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="hundredButton3" layoutX="463.0" layoutY="65.0" mnemonicParsing="false" onAction="#click100Right" prefHeight="72.0" prefWidth="146.0" text="\$100">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="fiftyButton3" layoutX="463.0" layoutY="141.0" mnemonicParsing="false" onAction="#click50Right" prefHeight="72.0" prefWidth="146.0" text="\$50">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="20.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Amount Won:" textAlignment="CENTER" wrappingWidth="113.80859375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="276.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get to $450 to win!" textAlignment="CENTER" wrappingWidth="213.80859375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="totalAmountText" fill="WHITE" layoutX="48.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0" textAlignment="CENTER" wrappingWidth="58.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="195.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java Trivia Jeopardy" textAlignment="CENTER" wrappingWidth="376.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="welcomeText" fill="WHITE" layoutX="6.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="295.13671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
